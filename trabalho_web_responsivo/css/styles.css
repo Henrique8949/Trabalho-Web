@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #0f172a;
+    --accent-color: #38bdf8;
+    --text-color: #333;
+    --bg-color: #f8fafc;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}  
+
+.card {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 0 4px solid var(--accent-color) ;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+}   
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
