@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #0f172a;
-    --accent-color: #38bdf8;
-    --text-color: #333;
-    --bg-color: #f8fafc;
+    --primary-color: #62bc73;
+    --accent-color: #e1a223;
+    --text-color: #100a2a;
+    --bg-color: #abedc1;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 }  
 
 .card {
-    background: #fff;
+    background: #a1cae4;
     padding: 15px;
     margin-bottom: 15px;
     border-left: 0 4px solid var(--accent-color) ;
@@ -41,7 +41,7 @@ body {
 }   
 
 img {
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
 }
